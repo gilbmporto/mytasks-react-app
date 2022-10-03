@@ -65,7 +65,7 @@ li {
   color: white;
   background-color: rgb(230, 75, 230);
   border: 1px solid rgb(222, 120, 222);
-  border-radius: 5px 2px;
+  border-radius: 5px;
   margin: 8px auto;
 }
 
@@ -91,6 +91,7 @@ li div button:focus {
 }
 
 li h2 {
+  border-radius: 5px;
   background-color: rgb(201, 36, 135);
   margin: 0;
   padding: 4px;
