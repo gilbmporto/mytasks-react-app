@@ -1,0 +1,101 @@
+html, body {
+	height: 100%;
+  background-color: #302585;
+  text-align: center;
+  margin: 0;
+}
+
+* {
+	font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+#app {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	padding: 8px;
+}
+
+h1 {
+  margin: 8px 0;
+  color: white;
+}
+
+form {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  border-radius: 10px;
+}
+
+input,
+textarea {
+  margin: 0 10px;
+  padding: 5px;
+  width: 60%;
+  min-width: 200px;
+  border-radius: 10px;
+}
+
+form button {
+  background-color: palevioletred;
+  color: white;
+  padding: 5px;
+  margin: 10px auto;
+  width: 80px;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  width: 60%;
+  min-width: 200px;
+  color: white;
+  background-color: rgb(230, 75, 230);
+  border: 1px solid rgb(222, 120, 222);
+  border-radius: 5px 2px;
+  margin: 8px auto;
+}
+
+li div {
+  position: relative;
+}
+
+li div button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: 0;
+  padding: 10px;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+li div button:hover,
+li div button:focus {
+  box-shadow: 0 0 1px black;
+}
+
+li h2 {
+  background-color: rgb(201, 36, 135);
+  margin: 0;
+  padding: 4px;
+}
+
+li p {
+  margin: 8px;
+}
